@@ -35,6 +35,11 @@
 			</div>
 		</div>
 	</div>
+	<div class="friends-box">
+		<div class="friends">
+			
+		</div>
+	</div>
 
 </body>
 </html>
