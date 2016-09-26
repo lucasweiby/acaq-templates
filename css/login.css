@@ -1,0 +1,166 @@
+body {
+    width: 920px;
+    height: 600px;
+    background-image: url('http://i68.tinypic.com/4hcneb.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+/*#video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity:.25;
+}*/
+
+#login-box {
+    background-color: rgb( 27, 162, 135 );
+    box-shadow: none;
+    border: 1px;
+    border-color: #087a64;
+    border-style: solid;
+    border-radius: 6px;
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    width: 11.712cm;
+    height: 14.711cm;
+    z-index: 3;
+}
+
+.label img {
+    margin: 20px 100px 10px 100px;
+    width: 237.6px;
+    height: 129.8px;
+}
+
+#login-box-label {
+    margin: 10px;
+}
+
+.input-div input {
+    border-radius: 0.212cm;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #169279;
+    margin: 10px 55px 10px 55px;
+    background-color: rgb( 230, 230, 230 );
+    padding-left: 10px;
+    text-align: center;
+    left: 17.851cm;
+    top: 15.558cm;
+    width: 8.608cm;
+    height: 1.376cm;
+    z-index: 5;
+    font-family: 'Nexa Light';
+    font-size: 16px;
+    color: #6a6a6a;
+    outline: none;
+}
+
+.input-div:hover input{
+    border-color: #1abc9c;
+}
+
+#botoes {
+    margin: 10px 55px 20px 50px;
+    
+}
+
+#botao1 {
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    margin: 8px;
+    background-color: rgb( 26, 188, 156 );
+    float: left;
+    left: 506px;
+    top: 555px;
+    width: 148px;
+    height: 37px;
+    z-index: 8;
+    font-size: 18px;
+    font-family: Nexa;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb( 254, 254, 254 );
+    text-align: center;
+    -webkit-transition:background 0.2s ease-out;
+    -moz-transition:background 0.2s ease-out;
+    -o-transition:background 0.2s ease-out;
+    -ms-transition:background 0.2s ease-out;
+    line-height: 37px;
+}
+
+#botao1:hover {
+    background-color: rgb( 254, 254, 254 );
+    border-style: solid;
+    border-width: 0px;
+    font-size: 18px;
+    font-family: Nexa;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb( 26, 188, 156 );
+    text-align: center;
+    filter:alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+    line-height: 37px;
+}
+
+#botao2 {
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    margin: 8px;
+    background-color: rgb( 26, 188, 156 );
+    float: right;
+    left: 506px;
+    top: 555px;
+    width: 148px;
+    height: 37px;
+    z-index: 8;
+    font-size: 18px;
+    font-family: Nexa;
+    font-weight: bold;
+    color: rgb( 254, 254, 254 );
+    text-align: center;
+    -webkit-transition:background 0.2s ease-out;
+    -moz-transition:background 0.2s ease-out;
+    -o-transition:background 0.2s ease-out;
+    -ms-transition:background 0.2s ease-out;
+    line-height: 37px;
+}
+
+#botao2:hover {
+    background-color: rgb( 254, 254, 254 );
+    border-style: solid;
+    border-width: 0px;
+    font-size: 18px;
+    font-family: Nexa;
+    font-weight: bold;
+    color: rgb( 26, 188, 156 );
+    text-align: center;
+    filter:alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+    line-height: 37px;
+}
+
+#lembrar-senha {
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Nexa Light";
+    color: rgb( 254, 254, 254 );
+    float: left;
+}
