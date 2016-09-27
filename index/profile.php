@@ -37,7 +37,9 @@
 	</div>
 	<div class="friends-box">
 		<div class="friends">
-			
+			<img class="profile-friend-pic" src="img/Profile2.jpg">
+			<h5>Noah</h5>
+			<h6>@noah_es</h6>
 		</div>
 	</div>
 
