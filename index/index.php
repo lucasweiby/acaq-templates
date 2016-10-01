@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/vertical-nav.css">
+  <link rel="stylesheet" type="text/css" href="css/index-post.css">
   <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
 </head>
 
@@ -53,67 +54,68 @@
             <button class="btn-trans dropdown-toggle" type="button" data-toggle="dropdown">
               <!-- http://loremflickr.com/200/200/woman,profile -->
               <img src="img/Profile.png" class="user-icon" alt="" />
-              </button>
-              <ul class="dropdown-menu profile-drop">
-                <li class="set-prof"><a class="set" href="profile.php">Meu Perfil</a></li>
+            </button>
+            <ul class="dropdown-menu profile-drop">
+              <li class="set-prof"><a class="set" href="profile.php">Meu Perfil</a></li>
                   <!-- <li><a href="#">Configurações</a></li>
                   <li><a href="#">Seguidores</a></li> -->
                   <li class="set-prof"><a class="set" href="#">Ajuda</a></li>
                   <li class="set-prof"><a class="set" href="teste.php">Sair</a></li>
                 </ul>
-            </div>
-          </li>
-        </ul>
-        <!-- </div> -->
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
-    </nav>
-
-    <!--Vertical-Nav-->
-    <div class="drop">
-      <nav class="nav nav-aberta">
-        <div class="wrap">
-          <ul class="listaNav">
-            <button class="btn-trans" type="button">
-              <li>
-                <a href="index.php">
-                  <img class="btn-post img-vertical-set-box" src="img/home.png" alt=""/>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                <img class="btn-post img-vertical-set-box" src="img/follow_request.png" alt=""/>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="btn-post img-vertical-set-box" src="img/notifications.png" alt=""/>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="btn-post img-vertical-set-box" src="img/speech_box.png" alt=""/>
-                </a>
-              </li>
-            </button>
-            <li> 
-              <div class="dropdown dropdown-conf">
-                <button id="vert" class="btn-trans dropdown-toggle" type="button" data-toggle="dropdown">
-                  <!-- http://loremflickr.com/200/200/woman,profile -->
-                  <img src="img/settings.png" class="btn-post img-vertical-set-box" alt="" />
-                  </button>
-                  <ul class="dropdown-menu set-drop">
-                    <li class="set"><a class="set" href="conf-teste.php">Configurações gerais da conta</a></li>
-                </ul>
               </div>
             </li>
           </ul>
+          <!-- </div> -->
+          <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+      </nav>
+
+      <!--Vertical-Nav-->
+      <div class="drop">
+        <nav class="nav nav-aberta">
+          <div class="wrap">
+            <ul class="listaNav">
+              <button class="btn-trans" type="button">
+                <li>
+                  <a href="index.php">
+                    <img class="btn-post img-vertical-set-box" src="img/home.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="btn-post img-vertical-set-box" src="img/follow_request.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="btn-post img-vertical-set-box" src="img/notifications.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="btn-post img-vertical-set-box" src="img/speech_box.png" alt=""/>
+                  </a>
+                </li>
+              </button>
+              <li> 
+                <div class="dropdown dropdown-conf">
+                  <button id="vert" class="btn-trans dropdown-toggle" type="button" data-toggle="dropdown">
+                    <!-- http://loremflickr.com/200/200/woman,profile -->
+                    <img src="img/settings.png" class="btn-post img-vertical-set-box" alt="" />
+                  </button>
+                  <ul class="dropdown-menu set-drop">
+                    <li class="set"><a class="set" href="conf-teste.php">Configurações gerais da conta</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </nav>
     </div>
     <!--/Vertical-Nav-->
-      
+
     <!--Post box-->
     <div class="container">
       <div class="row">
@@ -139,9 +141,22 @@
                 </a>
               </div>
             </div>
-          </div>	
-        </div>
+          </div>
+          <div class="index-post">
+            <img class="profile-post-pic" src="img/Profile.png">
+            <div class="post-box">
+              <h4 class="title">O que quer saber?</h4>
+              <h6 class="desc">Coisas...</h6>
+              <div class="post-footer">
+
+              </div>
+            </div>
+          </div>
+        </div>  	
       </div>
-      <!--/Post box-->     
+    </div>
+  </div>
+  <!--/Post box-->   
+
 </body>
 </html>
