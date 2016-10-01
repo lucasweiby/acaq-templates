@@ -143,12 +143,18 @@
             </div>
           </div>
           <div class="index-post">
-            <img class="profile-post-pic" src="img/Profile.png">
             <div class="post-box">
+              <img class="profile-post-pic" src="img/Profile.png">
               <h4 class="title">O que quer saber?</h4>
               <h6 class="desc">Coisas...</h6>
               <div class="post-footer">
-
+                <a class="btn-post btn-min pull-left" href="#">
+                  <img class="img-box" src="img/user.png" alt="" />
+                  <!-- <input type="file" accept="image/*;capture=camera"> Esse comando é pra inserir a imagens, eu não consegui atribuir a imagem. Se conseguir, me diz <3 -->  
+                </a>
+                <a class="btn-post btn-min pull-left" href="#">
+                  <img class="img-box" src="img/push-pin.png" alt="" />
+                </a>
               </div>
             </div>
           </div>
