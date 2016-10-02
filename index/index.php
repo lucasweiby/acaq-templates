@@ -12,7 +12,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/posts.css">
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -144,19 +144,25 @@
           </div>
           <div class="index-post">
             <div class="post-box">
-              <img class="profile-post-pic" src="img/Profile.png">
-              <h4 class="title">O que quer saber?</h4>
-              <h6 class="desc">Coisas...</h6>
-              <div class="post-footer">
-                <a class="btn-post btn-min pull-left" href="#">
-                  <img class="img-box" src="img/user.png" alt="">
-                    <span><img class="img-box" src="img/push-pin.png" alt=""></span>
-                  <!-- <input type="file" accept="image/*;capture=camera"> Esse comando é pra inserir a imagens, eu não consegui atribuir a imagem. Se conseguir, me diz <3 -->  
-                </a>
-                <a class="btn-post btn-min pull-left" href="#">
-                  <img class="img-box" src="img/push-pin.png" alt="">
-                </a>
+              <div class="profile-pic-post pull-left">
+                <img class="profile-post-pic" src="img/Profile.png">
               </div>
+              <div class="post-title-desc">
+                <h4 class="title">O que quer saber?</h4>
+                <h6 class="desc">Coisas...</h6>
+              </div>
+              <div class="post-footer">
+                <button type="button" class="btn pull-left">
+                  <span class="glyphicon glyphicon-thumbs-up like" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn pull-left">
+                  <span class="glyphicon glyphicon-comment comment" aria-hidden="true"></span>
+                </button>
+                <!--<a class="btn-post btn-min pull-left" href="#">
+                  <img class="img-box" src="img/push-pin.png" alt="">
+                </a>-->
+              </div>
+
             </div>
           </div>
         </div>  	
