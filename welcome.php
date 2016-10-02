@@ -7,9 +7,9 @@
 </head>
 <body>
 	<h1 class="first">Você tem alguma dúvida?</h1>
-	<h4 class="second">Deixe que nós encontremos a melhor resposta para você!</h4>
+	<h4 class="second">Deixe-nos encontrar a melhor resposta para você!</h4>
 	<form class="botoes pull-right" action="login.html" method="post">
-      <input class="botao1" type="submit" nome="login" value="SIGN IN"></input>
+      <input class="botao1" type="submit" nome="login" value="ENTRAR"></input>
       <button class="botao2">Ainda não tem cadastro?</button>
     </form>
 </body>
