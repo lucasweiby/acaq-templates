@@ -149,11 +149,12 @@
               <h6 class="desc">Coisas...</h6>
               <div class="post-footer">
                 <a class="btn-post btn-min pull-left" href="#">
-                  <img class="img-box" src="img/user.png" alt="" />
+                  <img class="img-box" src="img/user.png" alt="">
+                    <span><img class="img-box" src="img/push-pin.png" alt=""></span>
                   <!-- <input type="file" accept="image/*;capture=camera"> Esse comando é pra inserir a imagens, eu não consegui atribuir a imagem. Se conseguir, me diz <3 -->  
                 </a>
                 <a class="btn-post btn-min pull-left" href="#">
-                  <img class="img-box" src="img/push-pin.png" alt="" />
+                  <img class="img-box" src="img/push-pin.png" alt="">
                 </a>
               </div>
             </div>

@@ -32,7 +32,7 @@
             <img src="img/Profile.png" class="user-icon" alt="" />
           </button>
           <ul class="dropdown-menu profile-drop">
-            <li class="set-prof"><a class="set" href="#">Meu Perfil</a></li>
+            <li class="set-prof"><a class="set" href="profile.php">Meu Perfil</a></li>
                   <!-- <li><a href="#">Configurações</a></li>
                   <li><a href="#">Seguidores</a></li> -->
                   <li class="set-prof"><a class="set" href="#">Ajuda</a></li>
