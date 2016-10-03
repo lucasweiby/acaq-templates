@@ -3,7 +3,7 @@
 <head>
 	<title>ACAQ • Bem-Vindo</title>
 	<link rel="stylesheet" type="text/css" href="css/welcome.css">
-	<?php include("index/views/head.php") ?>
+	<link rel="stylesheet" type="text/css" href="index/bootstrap/bootstrap.min.css">
 </head>
 <body>
 	<h1 class="first">Você tem alguma dúvida?</h1>

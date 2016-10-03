@@ -58,11 +58,12 @@
 }
 
 .glyphicon {
-	vertical-align: center;
+	position: relative;
+	float: left;
 	font-size: 100%;
 	color: #7f8c8d;
-	left: 50%;
-	top: 50%;
+	margin-left: -7px;
+	top: -1px;
 	-webkit-transition:background 0.8s ease-out;
     -moz-transition:background 0.8s ease-out;
     -o-transition:background 0.8s ease-out;
